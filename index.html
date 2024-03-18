@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Marks sheet"</title>
+    <link rel="stylesheet" href="link.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading"> Marks Sheet</div>
+
+       <div class="marks-input-data">
+            <div class="book">
+                <label> Computer </label>
+                <input id="bookOne" type="number" name="computer" placeholder="Marks">
+            </div>
+
+            <div class="book">
+                <label> Mathmatics </label>
+                <input id="bookTwo" type="number" name="mathematics" placeholder="Marks">
+            </div>
+
+            <div class="book">
+                <label> Chemistry </label>
+                <input id="bookThree" type="number" name="chemistry" placeholder="Marks">
+            </div>
+
+            <div class="book">
+                <label> Biology </label>
+                <input id="bookFour" type="number" name="biology" placeholder="Marks">
+            </div>
+
+            <div class="book">
+                <label> Geography </label>
+                <input id="bookFive" type="number" name="geography" placeholder="Marks">
+            </div>
+
+            <div class="btn">
+                <button onclick="calculate()">Calculate</button>
+            </div>
+
+        </div>
+   
+        <div class="result-sheet">
+            <table>
+                <tr>
+                    <td>Total Marks(100 Mrks each Subject):</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Obtained Marks:</td>
+                    <td id="obtained"></td>
+                </tr>
+                <tr>
+                    <td>Percentage:</td>
+                    <td id="percentage"></td>
+                </tr>
+                <tr>
+                    <td>Grade:</td>
+                    <td id="grade"></td>
+                </tr>
+                <tr>
+                    <td>Remarks:</td>
+                    <td id="remarks"></td>
+                </tr>
+            </table>
+
+        </div> 
+    
+    </div> 
+
+    
+    <script type="text/javascript" src="first.js"></script>
+</body>
+</html>
